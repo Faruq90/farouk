@@ -5,13 +5,12 @@ pipeline {
         stage('SCM checkout') {
             steps {
                 echo 'SCM checkout from github'
-                echo 'SCM checkout completed
+                echo 'SCM checkout completed'
             }
         }
         stage('Build') {
             steps {
                 echo 'Build completed'
-                
             }
         }
         stage('Test') {
